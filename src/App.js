@@ -12,7 +12,7 @@ function App() {
         console.log(data);
         setUsers(data);
       })
-  })
+  }, [])
 
   return (
     <div className="App">
